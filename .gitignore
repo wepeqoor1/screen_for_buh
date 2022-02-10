@@ -1,1 +1,8 @@
-.*
+.env
+config.ini
+__pycache__
+.DS_Store
+.git
+*.zip
+*.xlsx
+.idea*

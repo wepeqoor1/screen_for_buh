@@ -55,10 +55,10 @@ class DataService2ltpFlask(object):
             return 'ERROR method'
 
 
-inn, role, request = '701730700158', 'client', '1058552'
-# logopass = DataService2ltpFlask(method='superuser', data={"inn": inn, "role": role})
-scratchcard = DataService2ltpFlask(method='scratchcard_request', data={"request": request})
-
-inn, role, request = '701730700158', 'client', 'i1058552'
-# logopass = DataService2ltpFlask(method='superuser', data={"inn": inn, "role": role})
-scratchcard = DataService2ltpFlask(method='scratchcard_request', data={"request": request})
+# inn, role, request = '701730700158', 'client', '1058552'
+# # logopass = DataService2ltpFlask(method='superuser', data={"inn": inn, "role": role})
+# scratchcard = DataService2ltpFlask(method='scratchcard_request', data={"request": request})
+#
+# inn, role, request = '701730700158', 'client', 'i1058552'
+# # logopass = DataService2ltpFlask(method='superuser', data={"inn": inn, "role": role})
+# scratchcard = DataService2ltpFlask(method='scratchcard_request', data={"request": request})
