@@ -12,7 +12,7 @@ for inn in os.listdir():
     ]
     inn_dir = os.getcwd()
 
-    if image_name_list == []:
+    if not image_name_list:
         print(inn_dir.split('\\')[-1], image_name_list)
     os.chdir('')
 
